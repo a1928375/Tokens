@@ -21,4 +21,16 @@ Do Not Match Exactly:
     LexToken(WORD,'b',2,12)
     LexToken(RANGLE,'>',2,13)
     LexToken(WORD,'webpage!',2,14)
+    
+(5) Identifier:  Identifiers are textual string descriptions that refer to program elements, such as variables and functions. Write a indentifier token rule for Javascript identifiers. The token rule should match:
+
+    factorial
+    underscore_separated
+    mystery
+    ABC
+
+The token rule should not match:
+
+    _starts_wrong
+    123
 
