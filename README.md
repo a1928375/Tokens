@@ -79,3 +79,5 @@ Hint 1: When presented with a hexadecimal string like "0x2b4", you can convert i
 Of course, since you don't know the number of digits in advance, you'll probably want some sort of loop. There are other ways to convert a hexadecimal string to a number. You may use any way that works. Hint 2: The Python function ord() will convert a single letter into an ordered internal numerical representation. This allows you to perform simple arithmetic on numbers:  
        
        print ord('c') - ord('a') == 2 
+
+(8) Expanding Exp
